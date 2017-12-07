@@ -19,3 +19,6 @@ git push -u origin master
 
 git remote add origin git@github.com:thewoodagency/expensify.git
 git push -u origin master
+
+
+git commit -am "message"
