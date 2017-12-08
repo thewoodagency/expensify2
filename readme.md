@@ -21,4 +21,9 @@ git remote add origin git@github.com:thewoodagency/expensify.git
 git push -u origin master
 
 
-git commit -am "message"
+#when you have just modified files
+git commit -a - m "message"
+
+#when you add new files
+git add .
+git commit -m "message"
